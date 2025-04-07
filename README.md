@@ -12,7 +12,7 @@
 - [x] 5. 迟钝孩子-Bob
 - [x] 6. 啤酒之歌-Beer Song
 - [x] 7. 谚语串烧-Proverb
-- [ ] 平方差-Difference Of Squares
+- [x] 8. 平方差-Difference Of Squares
 
 ## 中等
 
