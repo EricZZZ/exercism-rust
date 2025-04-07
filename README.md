@@ -10,7 +10,8 @@
 - [x] 3. 闰年-Leap
 - [ ] 4. 第n个素数-Nth Prime
 - [x] 5. 迟钝孩子-Bob
-- [ ] 6. 啤酒之歌-Beer Song
+- [x] 6. 啤酒之歌-Beer Song
+- [ ] 7. 谚语串烧-Proverb
 
 ## 中等
 
