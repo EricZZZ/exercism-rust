@@ -11,7 +11,8 @@
 - [ ] 4. 第n个素数-Nth Prime
 - [x] 5. 迟钝孩子-Bob
 - [x] 6. 啤酒之歌-Beer Song
-- [ ] 7. 谚语串烧-Proverb
+- [x] 7. 谚语串烧-Proverb
+- [ ] 平方差-Difference Of Squares
 
 ## 中等
 
