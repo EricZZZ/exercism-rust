@@ -8,11 +8,15 @@
 - [x] 1. hello world
 - [x] 2. 千兆秒-gigasecond
 - [x] 3. 闰年-Leap
-- [ ] 4. 第n个素数-Nth Prime
-- [x] 5. 迟钝孩子-Bob
-- [x] 6. 啤酒之歌-Beer Song
-- [x] 7. 谚语串烧-Proverb
-- [x] 8. 平方差-Difference Of Squares
+- [x] 4. 雨滴声-Raindrops
+- [x] 5. 反转字符串-Reverse String
+- [ ] 6. 第n个素数-Nth Prime
+- [x] 7. 迟钝孩子-Bob
+- [x] 8. 啤酒之歌-Beer Song
+- [x] 9. 谚语串烧-Proverb
+- [x] 10. 平方差-Difference Of Squares
+- [x] 11. 倍数之和-Sum Of Multiples
+- [x] 12. 谷物-Grains
 
 ## 中等
 
