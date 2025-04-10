@@ -21,8 +21,11 @@
 - [ ] 14. 素数因子-Prime Factors
 - [x] 15. 字串-Series
 - [x] 16. 水仙花数-Armstrong Numbers
+- [x] 17. 3n+1猜想-Collatz Conjecture
 
 ## 中等
+- [x] 1. 鞍点-Saddle Points
+- [x] 2. 等值线-Isogram
 
 ## 难
 
