@@ -23,6 +23,7 @@ pub fn find_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
     res
 }
 
+#[allow(dead_code)]
 // We don't care about order
 fn find_sorted_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
     let mut result = find_saddle_points(input);

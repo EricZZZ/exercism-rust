@@ -2,11 +2,11 @@ fn main() {}
 
 pub fn sum_of_multiples(limit: u32, factors: &[u32]) -> u32 {
     let mut res = 0;
-    if limit < 2 || factors.len() == 0 {
+    if limit < 2 || factors.is_empty() {
     } else {
         for index in 1..limit {
-            for i in 0..factors.len() {
-                if index % factors[i] == 0 {
+            for i in factors {
+                if index % i == 0 {
                     res += index;
                     break;
                 }

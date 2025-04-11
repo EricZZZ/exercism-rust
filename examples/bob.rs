@@ -3,15 +3,15 @@ fn main() {}
 pub fn reply(message: &str) -> &str {
     let message_str = message.trim();
     if message_str.is_empty() {
-        return "Fine. Be that way!";
+        "Fine. Be that way!"
     } else if is_yelling(message_str) && is_question(message_str) {
-        return "Calm down, I know what I'm doing!";
+        "Calm down, I know what I'm doing!"
     } else if is_yelling(message_str) {
-        return "Whoa, chill out!";
+        "Whoa, chill out!"
     } else if message_str.ends_with("?") {
-        return "Sure.";
+        "Sure."
     } else {
-        return "Whatever.";
+        "Whatever."
     }
 }
 

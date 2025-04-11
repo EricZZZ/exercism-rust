@@ -24,7 +24,7 @@ pub fn sing(start: i32, end: i32) -> String {
     // return res;
     (end..start + 1)
         .rev()
-        .map(|n| verse(n))
+        .map(verse)
         .collect::<Vec<_>>()
         .join("\n")
 }

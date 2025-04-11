@@ -7,8 +7,7 @@ pub fn square_of_sum(n: u32) -> u32 {
 
 pub fn sum_of_squares(n: u32) -> u32 {
     let square = |n| n * n;
-    let res = (0..n + 1).into_iter().map(square).sum();
-    res
+    (0..n + 1).map(square).sum()
 }
 
 pub fn difference(n: u32) -> u32 {
