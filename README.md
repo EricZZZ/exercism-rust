@@ -26,6 +26,8 @@
 ## 中等
 - [x] 1. 鞍点-Saddle Points
 - [x] 2. 等值线-Isogram
+- [ ] 3. 英文说数字-Say
+- [x] 4. 游戏编码-Run Length Encoding
 
 ## 难
 
