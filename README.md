@@ -28,8 +28,11 @@
 - [x] 2. 等值线-Isogram
 - [ ] 3. 英文说数字-Say
 - [x] 4. 游戏编码-Run Length Encoding
+- [x] 5. 图书编号-ISBN Verifier
 - [x] 13. 全字母句-Pangram
 - [x] 18. 单词计数-Word Count
+- [x] 19. Atbash加密-Atbash Cipher
+- [ ] 
 
 ## 难
 
