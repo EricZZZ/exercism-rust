@@ -32,7 +32,9 @@
 - [x] 7. 时钟-Clock
 - [ ] 8. DOT DSL
 - [x] 9. 汉明距离-Hamming
+- [x] 12. 字母的分数游戏-Scrabble Score
 - [x] 13. 全字母句-Pangram
+- [x] 15. 核苷酸-Nucleotide Count
 - [x] 18. 单词计数-Word Count
 - [x] 19. Atbash加密-Atbash Cipher
 - [ ] 
