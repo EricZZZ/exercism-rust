@@ -2,7 +2,7 @@
 
 [exercism/rust 的中文翻译](https://llever.com/exercism-rust-zh/index.html)
 
-目标：通过练习，提升rust编程能力
+目标：通过练习，提升 rust 编程能力
 
 ## 易
 - [x] 1. hello world
@@ -10,7 +10,7 @@
 - [x] 3. 闰年-Leap
 - [x] 4. 雨滴声-Raindrops
 - [x] 5. 反转字符串-Reverse String
-- [ ] 6. 第n个素数-Nth Prime
+- [ ] 6. 第 n 个素数-Nth Prime
 - [x] 7. 迟钝孩子-Bob
 - [x] 8. 啤酒之歌-Beer Song
 - [x] 9. 谚语串烧-Proverb
@@ -21,7 +21,7 @@
 - [ ] 14. 素数因子-Prime Factors
 - [x] 15. 字串-Series
 - [x] 16. 水仙花数-Armstrong Numbers
-- [x] 17. 3n+1猜想-Collatz Conjecture
+- [x] 17. 3n+1 猜想-Collatz Conjecture
 
 ## 中等
 - [x] 1. 鞍点-Saddle Points
@@ -35,12 +35,13 @@
 - [x] 12. 字母的分数游戏-Scrabble Score
 - [x] 13. 全字母句-Pangram
 - [x] 15. 核苷酸-Nucleotide Count
+- [x] 16. 模 10 算法-Luhn
+- [x] 17. 最大数字字串乘积-Largest Series Product
 - [x] 18. 单词计数-Word Count
-- [x] 19. Atbash加密-Atbash Cipher
+- [x] 19. Atbash 加密-Atbash Cipher
 - [ ] 
 
 ## 难
-
 
 ## 相关引用
 
