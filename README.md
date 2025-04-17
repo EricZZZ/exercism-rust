@@ -39,7 +39,9 @@
 - [x] 17. 最大数字字串乘积-Largest Series Product
 - [x] 18. 单词计数-Word Count
 - [x] 19. Atbash 加密-Atbash Cipher
-- [ ] 
+- [x] 21. 旋转密码-Rotational Cipher
+- [x] 25. 集合操作-Accumulate
+- [x] 26. 术语-Acronym
 
 ## 难
 
