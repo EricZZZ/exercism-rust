@@ -42,6 +42,9 @@
 - [x] 21. 旋转密码-Rotational Cipher
 - [x] 25. 集合操作-Accumulate
 - [x] 26. 术语-Acronym
+- [x] 28. RNA 转录-RNA Transcription
+- [x] 32. 学册-Grade School
+- [ ] 
 
 ## 难
 
