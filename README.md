@@ -17,7 +17,7 @@
 - [x] 10. 平方差-Difference Of Squares
 - [x] 11. 倍数之和-Sum Of Multiples
 - [x] 12. 谷物-Grains
-- [ ] 13. 勾股数-Pythagorean Triplet
+- [x] 13. 勾股数-Pythagorean Triplet
 - [ ] 14. 素数因子-Prime Factors
 - [x] 15. 字串-Series
 - [x] 16. 水仙花数-Armstrong Numbers
@@ -44,7 +44,7 @@
 - [x] 26. 术语-Acronym
 - [x] 28. RNA 转录-RNA Transcription
 - [x] 32. 学册-Grade School
-- [ ] 
+- [x] 59. 字谜-Anagram
 
 ## 难
 
