@@ -5,12 +5,13 @@
 目标：通过练习，提升 rust 编程能力
 
 ## 易
+
 - [x] 1. hello world
 - [x] 2. 千兆秒-gigasecond
 - [x] 3. 闰年-Leap
 - [x] 4. 雨滴声-Raindrops
 - [x] 5. 反转字符串-Reverse String
-- [ ] 6. 第 n 个素数-Nth Prime
+- [x] 6. 第 n 个素数-Nth Prime
 - [x] 7. 迟钝孩子-Bob
 - [x] 8. 啤酒之歌-Beer Song
 - [x] 9. 谚语串烧-Proverb
@@ -22,11 +23,13 @@
 - [x] 15. 字串-Series
 - [x] 16. 水仙花数-Armstrong Numbers
 - [x] 17. 3n+1 猜想-Collatz Conjecture
+- [ ] 18. 迪菲-赫尔曼密钥交换
 
 ## 中等
+
 - [x] 1. 鞍点-Saddle Points
 - [x] 2. 等值线-Isogram
-- [ ] 3. 英文说数字-Say
+- [x] 3. 英文说数字-Say
 - [x] 4. 游戏编码-Run Length Encoding
 - [x] 5. 图书编号-ISBN Verifier
 - [x] 7. 时钟-Clock
