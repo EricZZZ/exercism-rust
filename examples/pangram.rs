@@ -17,7 +17,7 @@ pub fn is_pangram(sentence: &str) -> bool {
             chars_count[(ch as u8 - 97) as usize] += 1;
         }
     }
-    !chars_count.iter().any(|&i| i == 0)
+    !chars_count.contains(&0)
 }
 
 #[test]

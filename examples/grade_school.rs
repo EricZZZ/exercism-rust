@@ -34,6 +34,7 @@ impl School {
     }
 }
 
+#[allow(unused)]
 fn some_strings(v: &[&str]) -> Option<Vec<String>> {
     Some(v.iter().map(|s| s.to_string()).collect())
 }

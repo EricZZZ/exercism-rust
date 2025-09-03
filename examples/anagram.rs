@@ -24,6 +24,7 @@ pub fn anagrams_for<'a>(word: &str, possible_anagrams: &[&'a str]) -> HashSet<&'
 // use std::collections::HashSet;
 use std::iter::FromIterator;
 
+#[allow(unused)]
 fn process_anagram_case(word: &str, inputs: &[&str], expected: &[&str]) {
     let result = anagrams_for(word, inputs);
 

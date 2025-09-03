@@ -1,5 +1,7 @@
+#[allow(clippy::unnecessary_fold)]
 fn main() {
     let numbers = [1, 2, 3, 4, 5];
+
     // iterator.fold(init, |acc, x| { /* 处理逻辑 */ }) init: 初始累积值，acc: 累积器（不断更新的中间结果），x: 当前迭代元素
     let sum_f = numbers.iter().fold(0, |acc, &x| acc + x);
     // .sum 计算numbers的和
