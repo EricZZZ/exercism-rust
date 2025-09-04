@@ -19,11 +19,11 @@
 - [x] 11. 倍数之和-Sum Of Multiples
 - [x] 12. 谷物-Grains
 - [x] 13. 勾股数-Pythagorean Triplet
-- [ ] 14. 素数因子-Prime Factors
+- [x] 14. 素数因子-Prime Factors
 - [x] 15. 字串-Series
 - [x] 16. 水仙花数-Armstrong Numbers
 - [x] 17. 3n+1 猜想-Collatz Conjecture
-- [ ] 18. 迪菲-赫尔曼密钥交换
+- [x] 18. 迪菲-赫尔曼密钥交换
 
 ## 中等
 
@@ -32,9 +32,11 @@
 - [x] 3. 英文说数字-Say
 - [x] 4. 游戏编码-Run Length Encoding
 - [x] 5. 图书编号-ISBN Verifier
+- [x] 6. 数字也能分类-Perfect Numbers
 - [x] 7. 时钟-Clock
 - [ ] 8. DOT DSL
 - [x] 9. 汉明距离-Hamming
+- [x] 10. 简单链表-Simple Linked List
 - [x] 12. 字母的分数游戏-Scrabble Score
 - [x] 13. 全字母句-Pangram
 - [x] 15. 核苷酸-Nucleotide Count
