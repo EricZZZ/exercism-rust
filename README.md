@@ -37,6 +37,7 @@
 - [ ] 8. DOT DSL
 - [x] 9. 汉明距离-Hamming
 - [x] 10. 简单链表-Simple Linked List
+- [x] 11. 杨辉三角-Pascals Triangle
 - [x] 12. 字母的分数游戏-Scrabble Score
 - [x] 13. 全字母句-Pangram
 - [x] 15. 核苷酸-Nucleotide Count
