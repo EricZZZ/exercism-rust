@@ -50,7 +50,10 @@
 - [x] 26. 术语-Acronym
 - [x] 28. RNA 转录-RNA Transcription
 - [x] 32. 学册-Grade School
+- [ ] 46. 啰嗦-Wordy
 - [x] 59. 字谜-Anagram
+- [x] 60. 蛋白质翻译-Protein Translation
+- [x] 61. 机器人名称-Robot Name
 
 ## 难
 
