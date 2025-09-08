@@ -51,6 +51,7 @@
 - [x] 27. 素数筛-Sieve
 - [x] 28. RNA 转录-RNA Transcription
 - [x] 32. 学册-Grade School
+- [x] 43. 过敏-Allergies
 - [ ] 46. 啰嗦-Wordy
 - [x] 59. 字谜-Anagram
 - [x] 60. 蛋白质翻译-Protein Translation
