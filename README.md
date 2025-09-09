@@ -47,10 +47,12 @@
 - [x] 18. 单词计数-Word Count
 - [x] 19. Atbash 加密-Atbash Cipher
 - [x] 21. 旋转密码-Rotational Cipher
+- [x] 24. ETL
 - [x] 25. 集合操作-Accumulate
 - [x] 26. 术语-Acronym
 - [x] 27. 素数筛-Sieve
 - [x] 28. RNA 转录-RNA Transcription
+- [x] 29. 三角形-Triangle
 - [x] 32. 学册-Grade School
 - [x] 43. 过敏-Allergies
 - [ ] 46. 啰嗦-Wordy
