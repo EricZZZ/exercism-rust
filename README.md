@@ -40,6 +40,7 @@
 - [x] 11. 杨辉三角-Pascals Triangle
 - [x] 12. 字母的分数游戏-Scrabble Score
 - [x] 13. 全字母句-Pangram
+- [x] 14. Paas-IO 报告-Paasio
 - [x] 15. 核苷酸-Nucleotide Count
 - [x] 16. 模 10 算法-Luhn
 - [x] 17. 最大数字字串乘积-Largest Series Product
