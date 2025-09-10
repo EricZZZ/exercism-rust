@@ -54,6 +54,8 @@
 - [x] 28. RNA 转录-RNA Transcription
 - [x] 29. 三角形-Triangle
 - [x] 32. 学册-Grade School
+- [x] 33. 二分查找-Binary Search
+- [ ] 34. 机器人模拟器-Robot Simulator
 - [x] 43. 过敏-Allergies
 - [ ] 46. 啰嗦-Wordy
 - [x] 59. 字谜-Anagram
