@@ -8,4 +8,6 @@
 
 - [x] [3227. 字符串元音游戏](https://leetcode.cn/problems/vowels-game-in-a-string/description/?envType=daily-question&envId=2025-09-12)
 
+- [x] [966. 元音拼写检查器](https://leetcode.cn/problems/vowel-spellchecker/description/?envType=daily-question&envId=2025-09-14)
+
 ## 困难
