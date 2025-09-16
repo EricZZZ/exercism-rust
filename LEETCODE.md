@@ -13,3 +13,5 @@
 - [x] [966. 元音拼写检查器](https://leetcode.cn/problems/vowel-spellchecker/description/?envType=daily-question&envId=2025-09-14)
 
 ## 困难
+
+- [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
