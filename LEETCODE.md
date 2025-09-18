@@ -14,6 +14,8 @@
 
 - [x] [2349. 设计数字容器系统](https://leetcode.cn/problems/design-a-number-container-system/description/?envType=daily-question&envId=2025-09-17)
 
+- [x] [3408. 设计任务管理器](https://leetcode.cn/problems/design-task-manager/description/?envType=daily-question&envId=2025-09-18)
+
 ## 困难
 
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
