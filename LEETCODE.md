@@ -18,6 +18,8 @@
 
 - [x] [3484. 设计电子表格](https://leetcode.cn/problems/design-spreadsheet/description/?envType=daily-question&envId=2025-09-19)
 
+- [x] [3508. 设计路由器](https://leetcode.cn/problems/implement-router/description/?envType=daily-question&envId=2025-09-20)
+
 ## 困难
 
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
