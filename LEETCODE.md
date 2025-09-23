@@ -22,6 +22,8 @@
 
 - [x] [3508. 设计路由器](https://leetcode.cn/problems/implement-router/description/?envType=daily-question&envId=2025-09-20)
 
+- [x] [165. 比较版本号](https://leetcode.cn/problems/compare-version-numbers/description/?envType=daily-question&envId=2025-09-23)
+
 ## 困难
 
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
