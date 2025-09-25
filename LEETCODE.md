@@ -26,6 +26,8 @@
 
 - [x] [166. 分数到小数](https://leetcode.cn/problems/fraction-to-recurring-decimal/description/?envType=daily-question&envId=2025-09-24)
 
+- [x] [120. 三角形最小路径和](https://leetcode.cn/problems/triangle/description/?envType=daily-question&envId=2025-09-25)
+
 ## 困难
 
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
