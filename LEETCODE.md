@@ -28,6 +28,8 @@
 
 - [x] [120. 三角形最小路径和](https://leetcode.cn/problems/triangle/description/?envType=daily-question&envId=2025-09-25)
 
+- [x] [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/description/?envType=daily-question&envId=2025-09-26)
+
 ## 困难
 
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
