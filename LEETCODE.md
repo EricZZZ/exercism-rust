@@ -7,6 +7,7 @@
 - [x] [3005. 最大频率元素计数](https://leetcode.cn/problems/count-elements-with-maximum-frequency/description/?envType=daily-question&envId=2025-09-22)
 
 - [x] [812. 最大三角形面积](https://leetcode.cn/problems/largest-triangle-area/description/?envType=daily-question&envId=2025-09-27)
+- [x] [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle/description/?envType=daily-question&envId=2025-09-28)
 
 ## 中等
 
