@@ -1,13 +1,9 @@
-use std::fmt::format;
+use std::collections::VecDeque;
 
 fn main() {
-    let s = "hello".to_string();
-    let mut ans = 0;
-    let bytes = s.as_bytes();
-    for i in 1..bytes.len() {
-        ans += (bytes[i - 1] as i32 - bytes[i] as i32).abs();
-    }
-    println!("{}", ans);
+    let s1 = "abc".to_string();
+    let s2 = "c".to_string();
+    println!("{}", str_str(s1, s2));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -29,4 +25,43 @@ pub fn convert_date_to_binary(date: String) -> String {
         .map(|n| format!("{:b}", n))
         .collect::<Vec<_>>()
         .join("-")
+}
+
+pub fn is_valid(s: String) -> bool {
+    if s.len() % 2 == 1 {
+        return false;
+    }
+    let chars: Vec<char> = s.chars().collect();
+    let mut quenu = VecDeque::<char>::new();
+    for ch in chars {
+        if ch == '(' || ch == '{' || ch == '[' {
+            quenu.push_back(ch);
+        }
+        if ch == ')' && quenu.pop_back() != Some('(') {
+            return false;
+        }
+        if '}' == ch && quenu.pop_back() != Some('{') {
+            return false;
+        }
+        if ']' == ch && quenu.pop_back() != Some('[') {
+            return false;
+        }
+    }
+    quenu.is_empty()
+}
+
+pub fn str_str(haystack: String, needle: String) -> i32 {
+    if haystack == needle {
+        return 0;
+    }
+    if !haystack.contains(&needle) {
+        return -1;
+    }
+    for i in 0..haystack.len() {
+        println!("{}", haystack.get(i..i + needle.len()).unwrap());
+        if haystack.get(i..i + needle.len()) == Some(&needle) {
+            return i as i32;
+        }
+    }
+    -1
 }

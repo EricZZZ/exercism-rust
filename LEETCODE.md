@@ -6,6 +6,8 @@
 
 - [x] [3005. 最大频率元素计数](https://leetcode.cn/problems/count-elements-with-maximum-frequency/description/?envType=daily-question&envId=2025-09-22)
 
+- [x] [812. 最大三角形面积](https://leetcode.cn/problems/largest-triangle-area/description/?envType=daily-question&envId=2025-09-27)
+
 ## 中等
 
 - [x] [2785. 将字符串中的元音字母排序](https://leetcode.cn/problems/sort-vowels-in-a-string/description/?envType=daily-question&envId=2025-09-11)
