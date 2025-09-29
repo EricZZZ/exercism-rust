@@ -3,7 +3,7 @@ use std::collections::VecDeque;
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{}", str_str(s1, s2));
+    println!("{}", min_operations(vec![4, 1, 3], 4));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -64,4 +64,9 @@ pub fn str_str(haystack: String, needle: String) -> i32 {
         }
     }
     -1
+}
+
+pub fn min_operations(nums: Vec<i32>, k: i32) -> i32 {
+    let sum: i32 = nums.iter().sum();
+    sum % k
 }

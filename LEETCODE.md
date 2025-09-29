@@ -32,6 +32,7 @@
 - [x] [120. 三角形最小路径和](https://leetcode.cn/problems/triangle/description/?envType=daily-question&envId=2025-09-25)
 
 - [x] [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/description/?envType=daily-question&envId=2025-09-26)
+- [x] [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question&envId=2025-09-29)
 
 ## 困难
 
