@@ -1,9 +1,9 @@
-use std::collections::VecDeque;
+use std::{cmp, collections::VecDeque};
 
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{}", min_operations(vec![4, 1, 3], 4));
+    println!("{:?}", difference_of_sums(10, 3));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -69,4 +69,48 @@ pub fn str_str(haystack: String, needle: String) -> i32 {
 pub fn min_operations(nums: Vec<i32>, k: i32) -> i32 {
     let sum: i32 = nums.iter().sum();
     sum % k
+}
+
+pub fn subarray_sum(nums: Vec<i32>) -> i32 {
+    let mut ans = 0;
+    for i in 0..nums.len() {
+        let start = cmp::max(0, i as i32 - nums[i]) as usize;
+
+        let n = nums[start..=i].iter().sum::<i32>();
+
+        ans += n;
+    }
+    ans
+}
+
+pub fn min_costs(mut cost: Vec<i32>) -> Vec<i32> {
+    for i in 1..cost.len() {
+        cost[i] = cmp::min(cost[i], cost[i - 1])
+    }
+    cost
+}
+
+pub fn find_closest(x: i32, y: i32, z: i32) -> i32 {
+    if (x - z).abs() > (y - z).abs() {
+        1
+    } else if (x - z).abs() == (y - z).abs() {
+        0
+    } else {
+        2
+    }
+}
+
+pub fn difference_of_sums(n: i32, m: i32) -> i32 {
+    let mut num1 = 0;
+    let mut num2 = 0;
+    for i in 1..=n {
+        if i % m == 0 {
+            println!("num2:{}", i);
+            num2 += i;
+        } else {
+            println!("num1:{}", i);
+            num1 += i;
+        }
+    }
+    num1 - num2
 }

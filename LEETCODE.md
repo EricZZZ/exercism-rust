@@ -33,6 +33,7 @@
 
 - [x] [611. 有效三角形的个数](https://leetcode.cn/problems/valid-triangle-number/description/?envType=daily-question&envId=2025-09-26)
 - [x] [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question&envId=2025-09-29)
+- [x] [2221. 数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/description/?envType=daily-question&envId=2025-09-30)
 
 ## 困难
 
