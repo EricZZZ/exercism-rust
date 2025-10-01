@@ -1,9 +1,12 @@
-use std::{cmp, collections::VecDeque};
+use std::{
+    cmp,
+    collections::{HashMap, VecDeque},
+};
 
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", difference_of_sums(10, 3));
+    println!("{:?}", earliest_time(vec![vec![1, 6], vec![2, 3]],));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -113,4 +116,39 @@ pub fn difference_of_sums(n: i32, m: i32) -> i32 {
         }
     }
     num1 - num2
+}
+
+pub fn recover_order(order: Vec<i32>, friends: Vec<i32>) -> Vec<i32> {
+    let mut ans = Vec::new();
+    let mut friends_index = vec![0; order.len()];
+    for i in friends {
+        friends_index[i as usize - 1] += 1;
+    }
+    for i in order {
+        if friends_index[i as usize - 1] != 0 {
+            ans.push(i);
+        }
+    }
+    ans
+}
+
+pub fn sort_the_students(score: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
+    let mut map = HashMap::new();
+    let mut values: Vec<i32> = Vec::new();
+    let mut ans = Vec::new();
+    for i in 0..score.len() {
+        map.insert(score[i][k as usize], i);
+        values.push(score[i][k as usize]);
+    }
+    values.sort_unstable();
+    for i in values.iter().rev() {
+        if let Some(&idx) = map.get(i) {
+            ans.push(score[idx].clone());
+        }
+    }
+    ans
+}
+
+pub fn earliest_time(tasks: Vec<Vec<i32>>) -> i32 {
+    tasks.iter().map(|v| v[0] + v[1]).min().unwrap()
 }
