@@ -1,12 +1,13 @@
 use std::{
     cmp,
-    collections::{HashMap, VecDeque},
+    collections::{HashMap, HashSet, VecDeque},
+    i32,
 };
 
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", earliest_time(vec![vec![1, 6], vec![2, 3]],));
+    println!("{:?}", count_tested_devices(vec![0, 1, 2]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -151,4 +152,58 @@ pub fn sort_the_students(score: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
 
 pub fn earliest_time(tasks: Vec<Vec<i32>>) -> i32 {
     tasks.iter().map(|v| v[0] + v[1]).min().unwrap()
+}
+
+pub fn equal_frequency(word: String) -> bool {
+    let mut values = [0; 26];
+    for ch in word.chars() {
+        values[(ch as u8 - b'a') as usize] += 1;
+    }
+
+    for i in 0..values.len() {
+        if values[i] == 0 {
+            continue;
+        }
+        values[i] -= 1;
+        let mut set = HashSet::new();
+        for v in values {
+            if v > 0 {
+                set.insert(v);
+            }
+        }
+        if set.len() == 1 {
+            return true;
+        }
+        values[i] += 1;
+    }
+
+    false
+}
+
+pub fn can_alice_win(nums: Vec<i32>) -> bool {
+    let mut g = 0;
+    let mut s = 0;
+    for n in nums {
+        if n > 9 {
+            s += n;
+        } else {
+            g += n;
+        }
+    }
+    !g == s
+}
+
+pub fn count_tested_devices(mut battery_percentages: Vec<i32>) -> i32 {
+    let mut ans = 0;
+    for i in 0..battery_percentages.len() {
+        if battery_percentages[i] > 0 {
+            for j in i + 1..battery_percentages.len() {
+                if battery_percentages[j] > 0 {
+                    battery_percentages[j] -= 1;
+                }
+            }
+            ans += 1;
+        }
+    }
+    ans
 }
