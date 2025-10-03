@@ -42,6 +42,7 @@
 - [x] [2197. 替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/description/?envType=daily-question&envId=2025-09-16)
 
 - [x] [1912. 设计电影租借系统](https://leetcode.cn/problems/design-movie-rental-system/description/?envType=daily-question&envId=2025-09-21)
+- [x] [⭐️ 407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/?envType=daily-question&envId=2025-10-03)
 
 ## 周赛
 
