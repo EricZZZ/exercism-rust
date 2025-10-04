@@ -36,6 +36,7 @@
 - [x] [1039. 多边形三角剖分的最低得分](https://leetcode.cn/problems/minimum-score-triangulation-of-polygon/description/?envType=daily-question&envId=2025-09-29)
 - [x] [2221. 数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/description/?envType=daily-question&envId=2025-09-30)
 - [x] [3100. 换水问题 II](https://leetcode.cn/problems/water-bottles-ii/description/?envType=daily-question&envId=2025-10-02)
+- [x] [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/?envType=daily-question&envId=2025-10-04)
 
 ## 困难
 

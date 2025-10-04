@@ -7,7 +7,15 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", count_tested_devices(vec![0, 1, 2]));
+    println!(
+        "{:?}",
+        max_increase_keeping_skyline(vec![
+            vec![3, 0, 8, 4],
+            vec![2, 4, 5, 7],
+            vec![9, 2, 6, 3],
+            vec![0, 3, 1, 0]
+        ])
+    );
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -203,6 +211,39 @@ pub fn count_tested_devices(mut battery_percentages: Vec<i32>) -> i32 {
                 }
             }
             ans += 1;
+        }
+    }
+    ans
+}
+
+pub fn get_sneaky_numbers(nums: Vec<i32>) -> Vec<i32> {
+    let mut ans: Vec<i32> = Vec::new();
+    let mut v = [0; 101];
+    println!("{:?}", v);
+    for n in nums {
+        println!("{}", n);
+        if v[n as usize] >= 1 {
+            ans.push(n);
+        } else {
+            v[n as usize] += 1;
+        }
+    }
+    ans
+}
+
+pub fn max_increase_keeping_skyline(grid: Vec<Vec<i32>>) -> i32 {
+    let mut n_max = vec![0; grid.len()];
+    let mut m_max = vec![0; grid[0].len()];
+    let mut ans = 0;
+    for (i, row) in grid.iter().enumerate() {
+        for (j, &c) in row.iter().enumerate() {
+            n_max[i] = n_max[i].max(c);
+            m_max[j] = m_max[j].max(c)
+        }
+    }
+    for (i, row) in grid.iter().enumerate() {
+        for (j, &x) in row.iter().enumerate() {
+            ans += n_max[i].min(m_max[j]) - x;
         }
     }
     ans
