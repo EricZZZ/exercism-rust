@@ -9,12 +9,7 @@ fn main() {
     let s2 = "c".to_string();
     println!(
         "{:?}",
-        max_increase_keeping_skyline(vec![
-            vec![3, 0, 8, 4],
-            vec![2, 4, 5, 7],
-            vec![9, 2, 6, 3],
-            vec![0, 3, 1, 0]
-        ])
+        final_position_of_snake(2, vec!["RIGHT".to_string(), "DOWN".to_string(),])
     );
 }
 
@@ -244,6 +239,34 @@ pub fn max_increase_keeping_skyline(grid: Vec<Vec<i32>>) -> i32 {
     for (i, row) in grid.iter().enumerate() {
         for (j, &x) in row.iter().enumerate() {
             ans += n_max[i].min(m_max[j]) - x;
+        }
+    }
+    ans
+}
+
+pub fn alternating_sum(nums: Vec<i32>) -> i32 {
+    // let mut ans = 0;
+    // for i in 0..nums.len() {
+    //     if i % 2 == 0 {
+    //         nums[i] = -nums[i];
+    //     }
+    //     ans += nums[i];
+    // }
+    // ans
+    nums.into_iter()
+        .enumerate()
+        .map(|(i, num)| if i % 2 == 1 { -num } else { num })
+        .sum()
+}
+
+pub fn final_position_of_snake(n: i32, commands: Vec<String>) -> i32 {
+    let mut ans = 0;
+    for command in commands {
+        match command.chars().next().unwrap() {
+            'U' => ans -= n,
+            'R' => ans += 1,
+            'D' => ans += n,
+            _ => ans -= 1,
         }
     }
     ans

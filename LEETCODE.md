@@ -37,6 +37,7 @@
 - [x] [2221. 数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/description/?envType=daily-question&envId=2025-09-30)
 - [x] [3100. 换水问题 II](https://leetcode.cn/problems/water-bottles-ii/description/?envType=daily-question&envId=2025-10-02)
 - [x] [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/?envType=daily-question&envId=2025-10-04)
+- [x] [⭐️ 417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=daily-question&envId=2025-10-05)
 
 ## 困难
 
