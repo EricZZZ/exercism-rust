@@ -45,6 +45,7 @@
 
 - [x] [1912. 设计电影租借系统](https://leetcode.cn/problems/design-movie-rental-system/description/?envType=daily-question&envId=2025-09-21)
 - [x] [⭐️ 407. 接雨水 II](https://leetcode.cn/problems/trapping-rain-water-ii/description/?envType=daily-question&envId=2025-10-03)
+- [x] [778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water/description/?envType=daily-question&envId=2025-10-06)
 
 ## 周赛
 

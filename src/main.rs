@@ -7,10 +7,7 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!(
-        "{:?}",
-        final_position_of_snake(2, vec!["RIGHT".to_string(), "DOWN".to_string(),])
-    );
+    println!("{:?}", reverse_degree("abc".to_string()));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -267,6 +264,25 @@ pub fn final_position_of_snake(n: i32, commands: Vec<String>) -> i32 {
             'R' => ans += 1,
             'D' => ans += n,
             _ => ans -= 1,
+        }
+    }
+    ans
+}
+
+pub fn reverse_degree(s: String) -> i32 {
+    s.chars()
+        .enumerate()
+        .map(|(i, ch)| (26 + ('a' as i32 - ch as i32)) * (i + 1) as i32)
+        .sum()
+}
+
+pub fn number_of_pairs(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i32 {
+    let mut ans = 0;
+    for num1 in &nums1 {
+        for num2 in &nums2 {
+            if num1 % (num2 * k) == 0 {
+                ans += 1;
+            }
         }
     }
     ans
