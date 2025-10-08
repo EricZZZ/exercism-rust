@@ -39,6 +39,7 @@
 - [x] [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/?envType=daily-question&envId=2025-10-04)
 - [x] [⭐️ 417. 太平洋大西洋水流问题](https://leetcode.cn/problems/pacific-atlantic-water-flow/description/?envType=daily-question&envId=2025-10-05)
 - [x] [1488. 避免洪水泛滥](https://leetcode.cn/problems/avoid-flood-in-the-city/description/?envType=daily-question&envId=2025-10-07)
+- [x] [2300. 咒语和药水的成功对数](https://leetcode.cn/problems/successful-pairs-of-spells-and-potions/description/?envType=daily-question&envId=2025-10-08)
 
 ## 困难
 

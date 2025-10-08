@@ -7,7 +7,10 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", reverse_degree("abc".to_string()));
+    println!(
+        "{:?}",
+        find_permutation_difference("abc".to_string(), "bac".to_string())
+    );
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -284,6 +287,44 @@ pub fn number_of_pairs(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i32 {
                 ans += 1;
             }
         }
+    }
+    ans
+}
+
+pub fn count_partitions(nums: Vec<i32>) -> i32 {
+    let mut ans = 0;
+    for i in 1..nums.len() {
+        let left = nums[0..i].iter().sum::<i32>();
+        let right = nums[i..nums.len()].iter().sum::<i32>();
+        if (left - right) % 2 == 0 {
+            ans += 1;
+        }
+    }
+    ans
+}
+
+pub fn is_balanced(num: String) -> bool {
+    let mut x = 0;
+    let mut y = 0;
+    for (i, ch) in num.chars().enumerate() {
+        if i % 2 == 0 {
+            x += ch as u8 - b'0';
+        } else {
+            y += ch as u8 - b'0';
+        }
+    }
+    x == y
+}
+
+pub fn find_permutation_difference(s: String, t: String) -> i32 {
+    let mut index = [0; 26];
+    let mut ans = 0;
+    for (i, ch) in s.chars().enumerate() {
+        index[(ch as u8 - b'a') as usize] = i as i32;
+    }
+    for (i, ch) in t.chars().enumerate() {
+        let r = index[(ch as u8 - b'a') as usize] - i as i32;
+        ans += r.abs();
     }
     ans
 }
