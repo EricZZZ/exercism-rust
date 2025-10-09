@@ -7,10 +7,7 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!(
-        "{:?}",
-        find_permutation_difference("abc".to_string(), "bac".to_string())
-    );
+    println!("{:?}", min_element(vec![10, 12, 13, 14]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -327,4 +324,31 @@ pub fn find_permutation_difference(s: String, t: String) -> i32 {
         ans += r.abs();
     }
     ans
+}
+
+pub fn is_array_special(nums: Vec<i32>) -> bool {
+    let n = nums.len();
+    if n == 1 {
+        return true;
+    }
+    for i in 1..nums.len() {
+        if (nums[i] - nums[i - 1]) % 2 == 0 {
+            return false;
+        }
+    }
+    true
+}
+
+pub fn min_element(nums: Vec<i32>) -> i32 {
+    let mut min = 10001;
+    for mut n in nums {
+        let mut sum = 0;
+        while n != 0 {
+            sum += n % 10;
+            n /= 10;
+        }
+        min = min.min(sum);
+    }
+
+    min
 }
