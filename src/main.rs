@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", min_element(vec![10, 12, 13, 14]));
+    println!("{:?}", sum_of_the_digits_of_harshad_number(23));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -351,4 +351,27 @@ pub fn min_element(nums: Vec<i32>) -> i32 {
     }
 
     min
+}
+
+pub fn minimum_average(mut nums: Vec<i32>) -> f64 {
+    nums.sort_unstable();
+    let mut ans = f64::MIN;
+    for i in 0..nums.len() / 2 {
+        ans = ans.min((nums[i] + nums[nums.len() - i - 1]) as f64 / 2.0);
+    }
+    ans
+}
+
+pub fn sum_of_the_digits_of_harshad_number(mut x: i32) -> i32 {
+    let ans = x;
+    let mut sum = 0;
+    while x != 0 {
+        sum += x % 10;
+        x /= 10;
+    }
+    if ans % sum == 0 {
+        sum
+    } else {
+        -1
+    }
 }
