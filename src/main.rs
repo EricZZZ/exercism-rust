@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "abc".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", sum_of_the_digits_of_harshad_number(23));
+    println!("{:?}", generate_key(987, 879, 798));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -374,4 +374,23 @@ pub fn sum_of_the_digits_of_harshad_number(mut x: i32) -> i32 {
     } else {
         -1
     }
+}
+
+pub fn count_key_changes(mut s: String) -> i32 {
+    let chars: Vec<char> = s.to_lowercase().chars().collect();
+    let mut ans = 0;
+    for i in 0..s.len() - 1 {
+        if chars[i] != chars[i + 1] {
+            ans += 1;
+        }
+    }
+    ans
+}
+
+pub fn generate_key(num1: i32, num2: i32, num3: i32) -> i32 {
+    let x = (num1 % 10).min(num2 % 10).min(num3 % 10);
+    let y = (num1 % 100).min(num2 % 100).min(num3 % 100) / 10;
+    let z = (num1 % 1000).min(num2 % 1000).min(num3 % 1000) / 100;
+    println!("{},{},{}", x, y, z);
+    x + y * 10 + z * 100
 }
