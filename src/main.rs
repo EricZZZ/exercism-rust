@@ -5,9 +5,9 @@ use std::{
 };
 
 fn main() {
-    let s1 = "abc".to_string();
+    let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", generate_key(987, 879, 798));
+    println!("{:?}", clear_digits(s1));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -391,6 +391,37 @@ pub fn generate_key(num1: i32, num2: i32, num3: i32) -> i32 {
     let x = (num1 % 10).min(num2 % 10).min(num3 % 10);
     let y = (num1 % 100).min(num2 % 100).min(num3 % 100) / 10;
     let z = (num1 % 1000).min(num2 % 1000).min(num3 % 1000) / 100;
+    let w = (num1 % 10000).min(num2 % 10000).min(num3 % 10000) / 1000;
     println!("{},{},{}", x, y, z);
-    x + y * 10 + z * 100
+    x + y * 10 + z * 100 + w * 1000
+}
+
+pub fn sum_divisible_by_k(nums: Vec<i32>, k: i32) -> i32 {
+    let mut map = HashMap::new();
+    for num in nums {
+        *map.entry(num).or_insert(0) += 1;
+    }
+    let mut sum = 0;
+    println!("{:?}", map);
+    for key in map.keys() {
+        let v = *map.get(key).unwrap();
+        if v % k == 0 {
+            sum += key * v
+        }
+    }
+    sum
+}
+
+pub fn clear_digits(s: String) -> String {
+    let mut ss = VecDeque::new();
+
+    for ch in s.chars() {
+        if ch.is_numeric() {
+            ss.pop_back();
+        } else {
+            ss.push_back(ch);
+        }
+    }
+
+    ss.into_iter().collect()
 }
