@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", clear_digits(s1));
+    println!("{:?}", find_peaks(vec![1, 4, 3, 8, 5]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -424,4 +424,25 @@ pub fn clear_digits(s: String) -> String {
     }
 
     ss.into_iter().collect()
+}
+
+pub fn find_peaks(mountain: Vec<i32>) -> Vec<i32> {
+    let mut ans = Vec::new();
+
+    for i in 1..mountain.len() - 1 {
+        if mountain[i - 1] < mountain[i] && mountain[i] > mountain[i + 1] {
+            ans.push(i as i32);
+        }
+    }
+    ans
+}
+
+pub fn find_champion(grid: Vec<Vec<i32>>) -> i32 {
+    for i in 0..grid.len() {
+        let sum = grid[i].iter().sum::<i32>();
+        if sum == (grid.len() - 1) as i32 {
+            return i as i32;
+        }
+    }
+    0
 }

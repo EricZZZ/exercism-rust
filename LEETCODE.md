@@ -9,6 +9,7 @@
 - [x] [812. 最大三角形面积](https://leetcode.cn/problems/largest-triangle-area/description/?envType=daily-question&envId=2025-09-27)
 - [x] [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle/description/?envType=daily-question&envId=2025-09-28)
 - [x] [1518. 换水问题](https://leetcode.cn/problems/water-bottles/?envType=daily-question&envId=2025-10-01)
+- [x] [2273. 移除字母异位词后的结果数组](https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/description/?envType=daily-question&envId=2025-10-13)
 
 ## 中等
 
