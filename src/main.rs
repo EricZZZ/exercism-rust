@@ -446,3 +446,14 @@ pub fn find_champion(grid: Vec<Vec<i32>>) -> i32 {
     }
     0
 }
+
+pub fn possible_string_count(word: String) -> i32 {
+    let mut ans = 0;
+    let bytes = word.into_bytes();
+    for i in 1..bytes.len() {
+        if bytes[i] == bytes[i - 1] {
+            ans += 1;
+        }
+    }
+    ans + 1
+}
