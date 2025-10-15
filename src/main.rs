@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", find_peaks(vec![1, 4, 3, 8, 5]));
+    println!("{:?}", sum_of_good_numbers(vec![2, 1], 1));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -456,4 +456,26 @@ pub fn possible_string_count(word: String) -> i32 {
         }
     }
     ans + 1
+}
+
+pub fn sum_of_good_numbers(nums: Vec<i32>, k: i32) -> i32 {
+    let mut index = 0;
+    let mut ans = 0;
+    while index < nums.len() {
+        let mut pre = 0;
+        if index as i32 - k >= 0 {
+            pre = nums[index - k as usize];
+        }
+        let mut after = 0;
+        if (index + k as usize) < nums.len() {
+            after = nums[index + k as usize];
+        }
+
+        let curr = *nums.get(index).unwrap();
+        if curr > pre && curr > after {
+            ans += curr;
+        }
+        index += 1;
+    }
+    ans
 }
