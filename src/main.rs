@@ -479,3 +479,15 @@ pub fn sum_of_good_numbers(nums: Vec<i32>, k: i32) -> i32 {
     }
     ans
 }
+
+pub fn transform_array(mut nums: Vec<i32>) -> Vec<i32> {
+    for num in nums.iter_mut() {
+        if *num % 2 == 0 {
+            *num = 0;
+        } else {
+            *num = 1;
+        }
+    }
+    nums.sort_unstable();
+    nums
+}
