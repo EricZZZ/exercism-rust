@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", sum_of_good_numbers(vec![2, 1], 1));
+    println!("{:?}", smallest_index(vec![1, 3, 2]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -490,4 +490,36 @@ pub fn transform_array(mut nums: Vec<i32>) -> Vec<i32> {
     }
     nums.sort_unstable();
     nums
+}
+
+pub fn count_k_constraint_substrings(s: String, k: i32) -> i32 {
+    let bytes = s.as_bytes();
+    let mut ans = 0;
+
+    for i in 0..bytes.len() {
+        let mut count = [0, 0];
+        for j in i..bytes.len() {
+            count[(bytes[j] - b'0') as usize] += 1;
+            if count[0] > k && count[1] > k {
+                break;
+            }
+            ans += 1;
+        }
+    }
+    ans
+}
+
+pub fn smallest_index(nums: Vec<i32>) -> i32 {
+    for (i, num) in nums.iter().enumerate() {
+        let mut sum = 0;
+        let mut n = *num;
+        while n != 0 {
+            sum += n % 10;
+            n /= 10;
+        }
+        if sum == i as i32 {
+            return i as i32;
+        }
+    }
+    -1
 }
