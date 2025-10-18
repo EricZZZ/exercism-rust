@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", smallest_index(vec![1, 3, 2]));
+    println!("{:?}", sum_counts(vec![1, 2, 1]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -522,4 +522,18 @@ pub fn smallest_index(nums: Vec<i32>) -> i32 {
         }
     }
     -1
+}
+
+pub fn sum_counts(nums: Vec<i32>) -> i32 {
+    let mut ans = 0;
+    for i in 0..nums.len() {
+        for j in i..nums.len() {
+            let mut set = HashSet::new();
+            nums[i..=j].iter().for_each(|n| {
+                set.insert(*n);
+            });
+            ans += (set.len() * set.len()) as i32;
+        }
+    }
+    ans % (100_000_000 + 7)
 }

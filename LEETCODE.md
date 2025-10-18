@@ -47,6 +47,7 @@
 - [x] [3186. 施咒的最大总伤害](https://leetcode.cn/problems/maximum-total-damage-with-spell-casting/description/?envType=daily-question&envId=2025-10-11)
 - [x] [3350. 检测相邻递增子数组 II](https://leetcode.cn/problems/adjacent-increasing-subarrays-detection-ii/description/?envType=daily-question&envId=2025-10-15)
 - [x] [2598. 执行操作后的最大 MEX](https://leetcode.cn/problems/smallest-missing-non-negative-integer-after-operations/description/?envType=daily-question&envId=2025-10-16)
+- [x] [3397. 执行操作后不同元素的最大数量](https://leetcode.cn/problems/maximum-number-of-distinct-elements-after-operations/description/?envType=daily-question&envId=2025-10-18)
 
 ## 困难
 
