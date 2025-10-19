@@ -7,7 +7,10 @@ use std::{
 fn main() {
     let s1 = "ag3".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", sum_counts(vec![1, 2, 1]));
+    println!(
+        "{:?}",
+        find_missing_and_repeated_values(vec![vec![1, 3], vec![2, 2]])
+    );
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -536,4 +539,25 @@ pub fn sum_counts(nums: Vec<i32>) -> i32 {
         }
     }
     ans % (100_000_000 + 7)
+}
+
+pub fn find_missing_and_repeated_values(grid: Vec<Vec<i32>>) -> Vec<i32> {
+    let n = grid.len() * grid.len();
+    let mut vals = vec![0; n];
+    for i in 0..grid.len() {
+        for j in 0..grid.len() {
+            vals[grid[i][j] as usize - 1] += 1;
+        }
+    }
+    let mut ans = vec![0, 0];
+
+    for (i, v) in vals.iter().enumerate() {
+        if *v > 1 {
+            ans[0] = (i + 1) as i32
+        }
+        if *v == 0 {
+            ans[1] = (i + 1) as i32
+        }
+    }
+    ans
 }
