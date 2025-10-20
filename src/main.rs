@@ -5,11 +5,17 @@ use std::{
 };
 
 fn main() {
-    let s1 = "ag3".to_string();
+    let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
     println!(
         "{:?}",
-        find_missing_and_repeated_values(vec![vec![1, 3], vec![2, 2]])
+        number_of_lines(
+            vec![
+                10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
+                10, 10, 10, 10, 10
+            ],
+            s1
+        )
     );
 }
 
@@ -560,4 +566,41 @@ pub fn find_missing_and_repeated_values(grid: Vec<Vec<i32>>) -> Vec<i32> {
         }
     }
     ans
+}
+pub fn num_different_integers(word: String) -> i32 {
+    let mut set: HashSet<String> = HashSet::new();
+    let mut cur_num_str = String::new();
+    for ch in word.chars() {
+        if ch.is_numeric() {
+            if cur_num_str == "0" && ch == '0' {
+                continue;
+            }
+            if cur_num_str == "0" && ch != '0' {
+                cur_num_str.clear();
+            }
+            cur_num_str.push(ch);
+        } else if !cur_num_str.is_empty() {
+            set.insert(cur_num_str.clone());
+            cur_num_str.clear();
+        }
+    }
+    if !cur_num_str.is_empty() {
+        set.insert(cur_num_str);
+    }
+    println!("{:?}", set);
+    set.len() as i32
+}
+
+pub fn number_of_lines(widths: Vec<i32>, s: String) -> Vec<i32> {
+    let mut line = 1;
+    let mut width = 0;
+    for c in s.bytes() {
+        let n = widths[(c - b'a') as usize];
+        width += n;
+        if width > 100 {
+            line += 1;
+            width = n;
+        }
+    }
+    vec![line, width]
 }

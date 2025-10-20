@@ -11,6 +11,7 @@
 - [x] [1518. 换水问题](https://leetcode.cn/problems/water-bottles/?envType=daily-question&envId=2025-10-01)
 - [x] [2273. 移除字母异位词后的结果数组](https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/description/?envType=daily-question&envId=2025-10-13)
 - [x] [3349. 检测相邻递增子数组 I](https://leetcode.cn/problems/adjacent-increasing-subarrays-detection-i/description/?envType=daily-question&envId=2025-10-14)
+- [x] [2011. 执行操作后的变量值](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/description/?envType=daily-question&envId=2025-10-20)
 
 ## 中等
 
