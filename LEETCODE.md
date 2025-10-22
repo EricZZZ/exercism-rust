@@ -61,6 +61,7 @@
 - [x] [778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water/description/?envType=daily-question&envId=2025-10-06)
 - [x] [⭐️⭐️⭐️ 3539. 魔法序列的数组乘积之和](https://leetcode.cn/problems/find-sum-of-array-product-of-magical-sequences/description/?envType=daily-question&envId=2025-10-12)
 - [x] [⭐️⭐️⭐️ 3003. 执行操作后的最大分割数量](https://leetcode.cn/problems/maximize-the-number-of-partitions-after-operations/description/?envType=daily-question&envId=2025-10-17)
+- [x] [3347. 执行操作后元素的最高频率 II](https://leetcode.cn/problems/maximum-frequency-of-an-element-after-performing-operations-ii/description/?envType=daily-question&envId=2025-10-22)
 
 ## 周赛
 
