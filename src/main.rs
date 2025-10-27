@@ -7,16 +7,7 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    println!(
-        "{:?}",
-        number_of_lines(
-            vec![
-                10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
-                10, 10, 10, 10, 10
-            ],
-            s1
-        )
-    );
+    println!("{:?}", sum_of_encrypted_int(vec![10, 21, 31]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -621,4 +612,27 @@ pub fn minimum_operations(nums: Vec<i32>) -> i32 {
         }
     }
     ans
+}
+
+pub fn sum_of_encrypted_int(nums: Vec<i32>) -> i32 {
+    fn encrypt(mut n: i32) -> i32 {
+        let mut max = 0;
+        let mut step = 0;
+        if n == 0 {
+            return 0;
+        }
+        while n > 0 {
+            max = max.max(n % 10);
+            n /= 10;
+            step += 1;
+        }
+        let digit_char = std::char::from_digit(max as u32, 10).unwrap();
+        let mut s = String::new();
+        for _ in 0..step {
+            s.push(digit_char);
+        }
+        s.parse::<i32>().unwrap_or(0)
+    }
+
+    nums.into_iter().map(encrypt).sum()
 }

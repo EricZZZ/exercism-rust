@@ -55,6 +55,7 @@
 - [x] [3346. 执行操作后元素的最高频率 I](https://leetcode.cn/problems/maximum-frequency-of-an-element-after-performing-operations-i/description/?envType=daily-question&envId=2025-10-21)
 - [x] [2048. 下一个更大的数值平衡数](https://leetcode.cn/problems/next-greater-numerically-balanced-number/description/?envType=daily-question&envId=2025-10-24)
 - [x] [2043. 简易银行系统](https://leetcode.cn/problems/simple-bank-system/description/?envType=daily-question&envId=2025-10-26)
+- [x] [2125. 银行中的激光束数量](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question&envId=2025-10-27)
 
 ## 困难
 
