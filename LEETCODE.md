@@ -14,6 +14,7 @@
 - [x] [2011. 执行操作后的变量值](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/description/?envType=daily-question&envId=2025-10-20)
 - [x] [3461. 判断操作后字符串中的数字是否相等 I](https://leetcode.cn/problems/check-if-digits-are-equal-in-string-after-operations-i/description/?envType=daily-question&envId=2025-10-23)
 - [x] [1716. 计算力扣银行的钱](https://leetcode.cn/problems/calculate-money-in-leetcode-bank/description/?envType=daily-question&envId=2025-10-25)
+- [x] [3354. 使数组元素等于零](https://leetcode.cn/problems/make-array-elements-equal-to-zero/description/?envType=daily-question&envId=2025-10-28)
 
 ## 中等
 
