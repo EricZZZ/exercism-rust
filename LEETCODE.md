@@ -16,6 +16,7 @@
 - [x] [1716. 计算力扣银行的钱](https://leetcode.cn/problems/calculate-money-in-leetcode-bank/description/?envType=daily-question&envId=2025-10-25)
 - [x] [3354. 使数组元素等于零](https://leetcode.cn/problems/make-array-elements-equal-to-zero/description/?envType=daily-question&envId=2025-10-28)
 - [x] [3370. 仅含置位位的最小整数](https://leetcode.cn/problems/smallest-number-with-all-set-bits/description/?envType=daily-question&envId=2025-10-29)
+- [x] [3289. 数字小镇中的捣蛋鬼](https://leetcode.cn/problems/the-two-sneaky-numbers-of-digitville/description/?envType=daily-question&envId=2025-10-31)
 
 ## 中等
 
