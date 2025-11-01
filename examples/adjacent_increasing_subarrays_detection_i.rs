@@ -1,5 +1,3 @@
-use std::collections::HashSet;
-
 fn main() {
     println!("{}", has_increasing_subarrays(vec![5, 8, -2, -1], 2))
 }

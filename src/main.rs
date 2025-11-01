@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", sum_of_encrypted_int(vec![10, 21, 31]));
+    println!("{:?}", kth_character(5));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -635,4 +635,31 @@ pub fn sum_of_encrypted_int(nums: Vec<i32>) -> i32 {
     }
 
     nums.into_iter().map(encrypt).sum()
+}
+
+pub fn kth_character(k: i32) -> char {
+    let idx = k as usize;
+    let mut ans = vec![b'a'];
+    while ans.len() < idx {
+        let temp = ans.clone();
+        for b in temp {
+            ans.push(((b - b'a') + 1) % 26 + b'a');
+        }
+        println!("ans:{:?}", ans);
+    }
+    ans[idx - 1] as char
+}
+
+pub fn result_array(nums: Vec<i32>) -> Vec<i32> {
+    let mut arr1 = vec![nums[0]];
+    let mut arr2 = vec![nums[1]];
+    for i in nums.iter().skip(2) {
+        if arr1.last() < arr2.last() {
+            arr1.push(*i);
+        } else {
+            arr2.push(*i);
+        }
+    }
+    arr1.extend(arr2);
+    arr1
 }

@@ -59,6 +59,7 @@
 - [x] [2048. 下一个更大的数值平衡数](https://leetcode.cn/problems/next-greater-numerically-balanced-number/description/?envType=daily-question&envId=2025-10-24)
 - [x] [2043. 简易银行系统](https://leetcode.cn/problems/simple-bank-system/description/?envType=daily-question&envId=2025-10-26)
 - [x] [2125. 银行中的激光束数量](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question&envId=2025-10-27)
+- [x] [3217. 从链表中移除在数组中存在的节点](https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/description/?envType=daily-question&envId=2025-11-01)
 
 ## 困难
 
