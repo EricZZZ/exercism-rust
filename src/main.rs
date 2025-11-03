@@ -7,7 +7,10 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", kth_character(5));
+    println!(
+        "{:?}",
+        max_width_of_vertical_area(vec![vec![8, 7], vec![9, 9], vec![7, 4], vec![9, 7]])
+    );
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -662,4 +665,31 @@ pub fn result_array(nums: Vec<i32>) -> Vec<i32> {
     }
     arr1.extend(arr2);
     arr1
+}
+
+pub fn find_missing_elements(nums: Vec<i32>) -> Vec<i32> {
+    let mut min = i32::MAX;
+    let mut max = 0;
+    let mut ans = Vec::new();
+    let mut set = HashSet::new();
+    for n in &nums {
+        min = min.min(*n);
+        max = max.max(*n);
+        set.insert(*n);
+    }
+    for i in min..max {
+        if !set.contains(&i) {
+            ans.push(i);
+        }
+    }
+    ans
+}
+
+pub fn max_width_of_vertical_area(mut points: Vec<Vec<i32>>) -> i32 {
+    points.sort_unstable();
+    let mut ans = 0;
+    for i in 1..points.len() {
+        ans = ans.max(points[i][0] - points[i - 1][0]);
+    }
+    ans
 }

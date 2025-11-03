@@ -61,6 +61,7 @@
 - [x] [2125. 银行中的激光束数量](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/description/?envType=daily-question&envId=2025-10-27)
 - [x] [3217. 从链表中移除在数组中存在的节点](https://leetcode.cn/problems/delete-nodes-from-linked-list-present-in-array/description/?envType=daily-question&envId=2025-11-01)
 - [x] [2257. 统计网格图中没有被保卫的格子数](https://leetcode.cn/problems/count-unguarded-cells-in-the-grid/description/?envType=daily-question&envId=2025-11-02)
+- [x] [1578. 使绳子变成彩色的最短时间](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful/description/?envType=daily-question&envId=2025-11-03)
 
 ## 困难
 
