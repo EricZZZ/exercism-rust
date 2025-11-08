@@ -78,6 +78,7 @@
 - [x] [1526. 形成目标数组的子数组最少增加次数](https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/description/?envType=daily-question&envId=2025-10-30)
 - [x] [3321. 计算子数组的 x-sum II](https://leetcode.cn/problems/find-x-sum-of-all-k-long-subarrays-ii/description/?envType=daily-question&envId=2025-11-05)
 - [x] [2528. 最大化城市的最小电量](https://leetcode.cn/problems/maximize-the-minimum-powered-city/description/?envType=daily-question&envId=2025-11-07)
+- [x] [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/description/?envType=daily-question&envId=2025-11-08)
 
 ## 周赛
 
