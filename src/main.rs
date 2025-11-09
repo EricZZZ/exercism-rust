@@ -7,10 +7,7 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    println!(
-        "{:?}",
-        max_width_of_vertical_area(vec![vec![8, 7], vec![9, 9], vec![7, 4], vec![9, 7]])
-    );
+    println!("{:?}", find_valid_pair("22".to_string()));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -692,4 +689,40 @@ pub fn max_width_of_vertical_area(mut points: Vec<Vec<i32>>) -> i32 {
         ans = ans.max(points[i][0] - points[i - 1][0]);
     }
     ans
+}
+
+pub fn min_moves(nums: Vec<i32>) -> i32 {
+    let max = nums.iter().max().unwrap();
+    let mut ans = 0;
+    for num in &nums {
+        ans += max - num;
+    }
+    ans
+}
+
+pub fn find_valid_pair(s: String) -> String {
+    let mut v = [0i32; 10];
+    let bytes: Vec<u8> = s.bytes().collect();
+    for b in &bytes {
+        v[(b - b'0') as usize] += 1;
+    }
+    for i in 1..s.len() {
+        let pre = bytes[i - 1] - b'0';
+        let cur = bytes[i] - b'0';
+        if pre != cur && v[pre as usize] == pre as i32 && v[cur as usize] == cur as i32 {
+            // return the two-character substring starting at i-1
+            return s[i - 1..i + 1].to_string();
+        }
+    }
+    String::new()
+}
+
+pub fn min_operations_i(nums: Vec<i32>) -> i32 {
+    let pre = nums[0];
+    for &n in nums.iter().skip(1) {
+        if pre != n {
+            return 1;
+        }
+    }
+    0
 }
