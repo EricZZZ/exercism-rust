@@ -65,6 +65,8 @@
 - [x] [2257. 统计网格图中没有被保卫的格子数](https://leetcode.cn/problems/count-unguarded-cells-in-the-grid/description/?envType=daily-question&envId=2025-11-02)
 - [x] [1578. 使绳子变成彩色的最短时间](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful/description/?envType=daily-question&envId=2025-11-03)
 - [x] [3607. 电网维护](https://leetcode.cn/problems/power-grid-maintenance/description/?envType=daily-question&envId=2025-11-06)
+- [x] [3542. 将所有元素变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/description/?envType=daily-question&envId=2025-11-10)
+- [x] [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/description/?envType=daily-question&envId=2025-11-11)
 
 ## 困难
 
