@@ -67,6 +67,7 @@
 - [x] [3607. 电网维护](https://leetcode.cn/problems/power-grid-maintenance/description/?envType=daily-question&envId=2025-11-06)
 - [x] [3542. 将所有元素变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-convert-all-elements-to-zero/description/?envType=daily-question&envId=2025-11-10)
 - [x] [474. 一和零](https://leetcode.cn/problems/ones-and-zeroes/description/?envType=daily-question&envId=2025-11-11)
+- [x] [2654. 使数组所有元素变成 1 的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/description/?envType=daily-question&envId=2025-11-12)
 
 ## 困难
 
