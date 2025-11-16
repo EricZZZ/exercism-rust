@@ -71,6 +71,7 @@
 - [x] [3228. 将 1 移动到末尾的最大操作次数](https://leetcode.cn/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/?envType=daily-question&envId=2025-11-13)
 - [x] [2536. 子矩阵元素加 1](https://leetcode.cn/problems/increment-submatrices-by-one/description/?envType=daily-question&envId=2025-11-14)
 - [x] [3234. 统计 1 显著的字符串的数量](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/description/?envType=daily-question&envId=2025-11-15)
+- [x] [1513. 仅含 1 的子串数](https://leetcode.cn/problems/number-of-substrings-with-only-1s/description/?envType=daily-question&envId=2025-11-16)
 
 ## 困难
 
