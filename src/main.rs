@@ -7,7 +7,7 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    println!("{:?}", find_valid_pair("22".to_string()));
+    // println!("{:?}", shuffle(vec![2, 5, 1, 3, 4, 7], 3));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -725,4 +725,21 @@ pub fn min_operations_i(nums: Vec<i32>) -> i32 {
         }
     }
     0
+}
+
+pub fn find_max_consecutive_ones(nums: Vec<i32>) -> i32 {
+    let mut max = 0;
+    let mut i = 0;
+    let mut count = 0;
+    while i < nums.len() {
+        if nums[i] == 1 {
+            count += 1;
+        } else {
+            max = max.max(count);
+            count = 0;
+        }
+        i += 1;
+    }
+    max = max.max(count);
+    max
 }
