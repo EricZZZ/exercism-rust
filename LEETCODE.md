@@ -21,6 +21,7 @@
 - [x] [2169. 得到 0 的操作数](https://leetcode.cn/problems/count-operations-to-obtain-zero/description/?envType=daily-question&envId=2025-11-09)
 - [x] [1437. 是否所有 1 都至少相隔 k 个元素](https://leetcode.cn/problems/check-if-all-1s-are-at-least-length-k-places-away/description/?envType=daily-question&envId=2025-11-17)
 - [x] [717. 1 比特与 2 比特字符](https://leetcode.cn/problems/1-bit-and-2-bit-characters/description/?envType=daily-question&envId=2025-11-18)
+- [x] [2154. 将找到的值乘以 2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/description/?envType=daily-question&envId=2025-11-19)
 
 ## 中等
 

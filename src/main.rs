@@ -1,3 +1,4 @@
+use core::num;
 use std::{
     cmp,
     collections::{HashMap, HashSet, VecDeque},
@@ -7,7 +8,7 @@ use std::{
 fn main() {
     let s1 = "abcdefghijklmnopqrstuvwxyz".to_string();
     let s2 = "c".to_string();
-    // println!("{:?}", shuffle(vec![2, 5, 1, 3, 4, 7], 3));
+    println!("{:?}", find_error_nums(vec![1, 2, 2, 4]));
 }
 
 pub fn find_words_containing(words: Vec<String>, x: char) -> Vec<i32> {
@@ -742,4 +743,21 @@ pub fn find_max_consecutive_ones(nums: Vec<i32>) -> i32 {
     }
     max = max.max(count);
     max
+}
+
+pub fn find_error_nums(nums: Vec<i32>) -> Vec<i32> {
+    let mut ans: Vec<i32> = vec![0; 2];
+    let mut va = vec![0; nums.len()];
+    for num in nums.iter() {
+        va[*num as usize - 1] += 1;
+    }
+    println!("{:?}", va);
+    for i in 0..nums.len() {
+        if va[i] == 2 {
+            ans[0] = i as i32 + 1;
+        } else if va[i] == 0 {
+            ans[1] = i as i32 + 1;
+        }
+    }
+    ans
 }
