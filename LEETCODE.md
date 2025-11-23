@@ -77,6 +77,7 @@
 - [x] [3234. 统计 1 显著的字符串的数量](https://leetcode.cn/problems/count-the-number-of-substrings-with-dominant-ones/description/?envType=daily-question&envId=2025-11-15)
 - [x] [1513. 仅含 1 的子串数](https://leetcode.cn/problems/number-of-substrings-with-only-1s/description/?envType=daily-question&envId=2025-11-16)
 - [x] [1930. 长度为 3 的不同回文子序列](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/description/?envType=daily-question&envId=2025-11-21)
+- [x] [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/description/?envType=daily-question&envId=2025-11-23)
 
 ## 困难
 
