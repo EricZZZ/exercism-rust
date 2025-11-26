@@ -96,6 +96,7 @@
 - [x] [2528. 最大化城市的最小电量](https://leetcode.cn/problems/maximize-the-minimum-powered-city/description/?envType=daily-question&envId=2025-11-07)
 - [x] [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/description/?envType=daily-question&envId=2025-11-08)
 - [x] [757. 设置交集大小至少为 2](https://leetcode.cn/problems/set-intersection-size-at-least-two/description/?envType=daily-question&envId=2025-11-20)
+- [x] [2435. 矩阵中和能被 K 整除的路径](https://leetcode.cn/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/?envType=daily-question&envId=2025-11-26)
 
 ## 周赛
 
