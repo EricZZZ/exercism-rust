@@ -80,6 +80,7 @@
 - [x] [1930. 长度为 3 的不同回文子序列](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/description/?envType=daily-question&envId=2025-11-21)
 - [x] [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three/description/?envType=daily-question&envId=2025-11-23)
 - [x] [1015. 可被 K 整除的最小整数](https://leetcode.cn/problems/smallest-integer-divisible-by-k/description/?envType=daily-question&envId=2025-11-25)
+- [x] [3381. 长度可被 K 整除的子数组的最大元素和](https://leetcode.cn/problems/maximum-subarray-sum-with-length-divisible-by-k/description/?envType=daily-question&envId=2025-11-27)
 
 ## 困难
 
