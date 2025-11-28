@@ -98,6 +98,7 @@
 - [x] [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/description/?envType=daily-question&envId=2025-11-08)
 - [x] [757. 设置交集大小至少为 2](https://leetcode.cn/problems/set-intersection-size-at-least-two/description/?envType=daily-question&envId=2025-11-20)
 - [x] [2435. 矩阵中和能被 K 整除的路径](https://leetcode.cn/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/?envType=daily-question&envId=2025-11-26)
+- [x] [2872. 可以被 K 整除连通块的最大数目](https://leetcode.cn/problems/maximum-number-of-k-divisible-components/description/?envType=daily-question&envId=2025-11-28)
 
 ## 周赛
 
