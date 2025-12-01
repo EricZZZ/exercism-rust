@@ -101,6 +101,7 @@
 - [x] [757. 设置交集大小至少为 2](https://leetcode.cn/problems/set-intersection-size-at-least-two/description/?envType=daily-question&envId=2025-11-20)
 - [x] [2435. 矩阵中和能被 K 整除的路径](https://leetcode.cn/problems/paths-in-matrix-whose-sum-is-divisible-by-k/description/?envType=daily-question&envId=2025-11-26)
 - [x] [2872. 可以被 K 整除连通块的最大数目](https://leetcode.cn/problems/maximum-number-of-k-divisible-components/description/?envType=daily-question&envId=2025-11-28)
+- [x] [2141. 同时运行 N 台电脑的最长时间](https://leetcode.cn/problems/maximum-running-time-of-n-computers/description/?envType=daily-question&envId=2025-12-01)
 
 ## 周赛
 
