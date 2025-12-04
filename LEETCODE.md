@@ -84,6 +84,7 @@
 - [x] [3381. 长度可被 K 整除的子数组的最大元素和](https://leetcode.cn/problems/maximum-subarray-sum-with-length-divisible-by-k/description/?envType=daily-question&envId=2025-11-27)
 - [x] [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/?envType=daily-question&envId=2025-11-30)
 - [x] [3623. 统计梯形的数目 I](https://leetcode.cn/problems/count-number-of-trapezoids-i/description/?envType=daily-question&envId=2025-12-02)
+- [x] [2211. 统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/description/?envType=daily-question&envId=2025-12-04)
 
 ## 困难
 
