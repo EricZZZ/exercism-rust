@@ -86,6 +86,7 @@
 - [x] [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/?envType=daily-question&envId=2025-11-30)
 - [x] [3623. 统计梯形的数目 I](https://leetcode.cn/problems/count-number-of-trapezoids-i/description/?envType=daily-question&envId=2025-12-02)
 - [x] [2211. 统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/description/?envType=daily-question&envId=2025-12-04)
+- [x] [3578. 统计极差最大为 K 的分割方式数](https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/description/?envType=daily-question&envId=2025-12-06)
 
 ## 困难
 
