@@ -90,6 +90,7 @@
 - [x] [2211. 统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/description/?envType=daily-question&envId=2025-12-04)
 - [x] [3578. 统计极差最大为 K 的分割方式数](https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/description/?envType=daily-question&envId=2025-12-06)
 - [x] [3583. 统计特殊三元组](https://leetcode.cn/problems/count-special-triplets/description/?envType=daily-question&envId=2025-12-09)
+- [x] [3577. 统计计算机解锁顺序排列数](https://leetcode.cn/problems/count-the-number-of-computer-unlocking-permutations/description/?envType=daily-question&envId=2025-12-10)
 
 ## 困难
 
