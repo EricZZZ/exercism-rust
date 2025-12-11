@@ -91,6 +91,7 @@
 - [x] [3578. 统计极差最大为 K 的分割方式数](https://leetcode.cn/problems/count-partitions-with-max-min-difference-at-most-k/description/?envType=daily-question&envId=2025-12-06)
 - [x] [3583. 统计特殊三元组](https://leetcode.cn/problems/count-special-triplets/description/?envType=daily-question&envId=2025-12-09)
 - [x] [3577. 统计计算机解锁顺序排列数](https://leetcode.cn/problems/count-the-number-of-computer-unlocking-permutations/description/?envType=daily-question&envId=2025-12-10)
+- [x] [3531. 统计被覆盖的建筑](https://leetcode.cn/problems/count-covered-buildings/description/?envType=daily-question&envId=2025-12-11)
 
 ## 困难
 
