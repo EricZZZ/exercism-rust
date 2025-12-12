@@ -92,6 +92,7 @@
 - [x] [3583. 统计特殊三元组](https://leetcode.cn/problems/count-special-triplets/description/?envType=daily-question&envId=2025-12-09)
 - [x] [3577. 统计计算机解锁顺序排列数](https://leetcode.cn/problems/count-the-number-of-computer-unlocking-permutations/description/?envType=daily-question&envId=2025-12-10)
 - [x] [3531. 统计被覆盖的建筑](https://leetcode.cn/problems/count-covered-buildings/description/?envType=daily-question&envId=2025-12-11)
+- [x] [3433. 统计用户被提及情况](https://leetcode.cn/problems/count-mentions-per-user/description/?envType=daily-question&envId=2025-12-12)
 
 ## 困难
 
