@@ -28,6 +28,7 @@
 - [x] [3432. 统计元素和差值为偶数的分区方案](https://leetcode.cn/problems/count-partitions-with-even-sum-difference/description/?envType=daily-question&envId=2025-12-05)
 - [x] [1523. 在区间范围内统计奇数数目](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range/description/?envType=daily-question&envId=2025-12-07)
 - [x] [1925. 统计平方和三元组的数目](https://leetcode.cn/problems/count-square-sum-triples/description/?envType=daily-question&envId=2025-12-08)
+- [x] [3606. 优惠券校验器](https://leetcode.cn/problems/coupon-code-validator/description/?envType=daily-question&envId=2025-12-13)
 
 ## 中等
 
