@@ -96,6 +96,7 @@
 - [x] [3433. 统计用户被提及情况](https://leetcode.cn/problems/count-mentions-per-user/description/?envType=daily-question&envId=2025-12-12)
 - [x] [2110. 股票平滑下跌阶段的数目](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock/description/?envType=daily-question&envId=2025-12-15)
 - [x] [3573. 买卖股票的最佳时机 V](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-v/description/?envType=daily-question&envId=2025-12-17)
+- [x] [3652. 按策略买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-using-strategy/description/?envType=daily-question&envId=2025-12-18)
 
 ## 困难
 
