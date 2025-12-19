@@ -119,6 +119,7 @@
 - [x] [3625. 统计梯形的数目 II](https://leetcode.cn/problems/count-number-of-trapezoids-ii/description/?envType=daily-question&envId=2025-12-03)
 - [x] [2147. 分隔长廊的方案数](https://leetcode.cn/problems/number-of-ways-to-divide-a-long-corridor/description/?envType=daily-question&envId=2025-12-14)
 - [x] [️⭐️⭐️⭐️ 3562. 折扣价交易股票的最大利润](https://leetcode.cn/problems/maximum-profit-from-trading-stocks-with-discounts/description/?envType=daily-question&envId=2025-12-16)
+- [x] [2092. 找出知晓秘密的所有专家](https://leetcode.cn/problems/find-all-people-with-secret/description/?envType=daily-question&envId=2025-12-19)
 
 ## 周赛
 
