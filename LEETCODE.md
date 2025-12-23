@@ -99,6 +99,7 @@
 - [x] [3573. 买卖股票的最佳时机 V](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-v/description/?envType=daily-question&envId=2025-12-17)
 - [x] [3652. 按策略买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-using-strategy/description/?envType=daily-question&envId=2025-12-18)
 - [x] [955. 删列造序 II](https://leetcode.cn/problems/delete-columns-to-make-sorted-ii/description/?envType=daily-question&envId=2025-12-21)
+- [x] [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/description/?envType=daily-question&envId=2025-12-23)
 
 ## 困难
 
