@@ -30,6 +30,7 @@
 - [x] [1925. 统计平方和三元组的数目](https://leetcode.cn/problems/count-square-sum-triples/description/?envType=daily-question&envId=2025-12-08)
 - [x] [3606. 优惠券校验器](https://leetcode.cn/problems/coupon-code-validator/description/?envType=daily-question&envId=2025-12-13)
 - [x] [944. 删列造序](https://leetcode.cn/problems/delete-columns-to-make-sorted/description/?envType=daily-question&envId=2025-12-20)
+- [x] [3074. 重新分装苹果](https://leetcode.cn/problems/apple-redistribution-into-boxes/description/?envType=daily-question&envId=2025-12-24)
 
 ## 中等
 
