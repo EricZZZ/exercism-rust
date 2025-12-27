@@ -127,6 +127,7 @@
 - [x] [️⭐️⭐️⭐️ 3562. 折扣价交易股票的最大利润](https://leetcode.cn/problems/maximum-profit-from-trading-stocks-with-discounts/description/?envType=daily-question&envId=2025-12-16)
 - [x] [2092. 找出知晓秘密的所有专家](https://leetcode.cn/problems/find-all-people-with-secret/description/?envType=daily-question&envId=2025-12-19)
 - [x] [960. 删列造序 III](https://leetcode.cn/problems/delete-columns-to-make-sorted-iii/description/?envType=daily-question&envId=2025-12-22)
+- [x] [2402. 会议室 III](https://leetcode.cn/problems/meeting-rooms-iii/description/?envType=daily-question&envId=2025-12-27)
 
 ## 周赛
 
