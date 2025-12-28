@@ -761,3 +761,83 @@ pub fn find_error_nums(nums: Vec<i32>) -> Vec<i32> {
     }
     ans
 }
+pub fn mirror_distance(n: i32) -> i32 {
+    fn reverse(n: i32) -> i32 {
+        let s = n.abs().to_string();
+        let reverse_s: String = s.chars().rev().collect();
+        let mut reverse_num = reverse_s.parse().unwrap_or(0);
+        if n < 0 {
+            reverse_num = -reverse_num;
+        }
+        reverse_num
+    }
+    (n - reverse(n)).abs()
+}
+
+struct NeighborSum {
+    grid: Vec<Vec<i32>>,
+}
+
+impl NeighborSum {
+    fn new(grid: Vec<Vec<i32>>) -> Self {
+        NeighborSum { grid }
+    }
+
+    fn adjacent_sum(&self, value: i32) -> i32 {
+        let mut ans = 0;
+        for i in 0..self.grid.len() {
+            for j in 0..self.grid[0].len() {
+                if self.grid[i][j] == value {
+                    if j > 0 {
+                        ans += self.grid[i][j - 1];
+                    }
+                    if j + 1 < self.grid[0].len() {
+                        ans += self.grid[i][j + 1];
+                    }
+                    if i > 0 {
+                        ans += self.grid[i - 1][j];
+                    }
+                    if i + 1 < self.grid.len() {
+                        ans += self.grid[i + 1][j]
+                    }
+                }
+            }
+        }
+        ans
+    }
+
+    fn diagonal_sum(&self, value: i32) -> i32 {
+        let mut ans = 0;
+        for i in 0..self.grid.len() {
+            for j in 0..self.grid[0].len() {
+                if self.grid[i][j] == value {
+                    if j > 0 && i > 0 {
+                        ans += self.grid[i - 1][j - 1];
+                    }
+                    if j + 1 < self.grid[0].len() && i + 1 < self.grid[0].len() {
+                        ans += self.grid[i + 1][j + 1];
+                    }
+                    if i > 0 && j + 1 < self.grid[0].len() {
+                        ans += self.grid[i - 1][j + 1];
+                    }
+                    if i + 1 < self.grid.len() && j > 0 {
+                        ans += self.grid[i + 1][j - 1]
+                    }
+                }
+            }
+        }
+        ans
+    }
+}
+
+pub fn return_to_boundary_count(nums: Vec<i32>) -> i32 {
+    let mut ans = 0;
+    let mut count = nums[0];
+    for i in 1..nums.len() {
+        count += nums[i];
+        if count == 0 {
+            ans += 1;
+        }
+    }
+    ans
+}
