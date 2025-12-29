@@ -104,6 +104,7 @@
 - [x] [2054. 两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/description/?envType=daily-question&envId=2025-12-23)
 - [x] [3075. 幸福值最大化的选择方案](https://leetcode.cn/problems/maximize-happiness-of-selected-children/?envType=daily-question&envId=2025-12-25)
 - [x] [2483. 商店的最少代价](https://leetcode.cn/problems/minimum-penalty-for-a-shop/description/?envType=daily-question&envId=2025-12-26)
+- [x] [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/?envType=daily-question&envId=2025-12-29)
 
 ## 困难
 
