@@ -131,6 +131,7 @@
 - [x] [2092. 找出知晓秘密的所有专家](https://leetcode.cn/problems/find-all-people-with-secret/description/?envType=daily-question&envId=2025-12-19)
 - [x] [960. 删列造序 III](https://leetcode.cn/problems/delete-columns-to-make-sorted-iii/description/?envType=daily-question&envId=2025-12-22)
 - [x] [2402. 会议室 III](https://leetcode.cn/problems/meeting-rooms-iii/description/?envType=daily-question&envId=2025-12-27)
+- [x] [1970. 你能穿过矩阵的最后一天](https://leetcode.cn/problems/last-day-where-you-can-still-cross/description/?envType=daily-question&envId=2025-12-31)
 
 ## 周赛
 
