@@ -32,6 +32,7 @@
 - [x] [944. 删列造序](https://leetcode.cn/problems/delete-columns-to-make-sorted/description/?envType=daily-question&envId=2025-12-20)
 - [x] [3074. 重新分装苹果](https://leetcode.cn/problems/apple-redistribution-into-boxes/description/?envType=daily-question&envId=2025-12-24)
 - [x] [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/?envType=daily-question&envId=2025-12-28)
+- [ ] [66. 加一](https://leetcode.cn/problems/plus-one/description/?envType=daily-question&envId=2026-01-01)
 
 ## 中等
 
