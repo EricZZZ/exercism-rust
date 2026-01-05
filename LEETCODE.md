@@ -110,6 +110,7 @@
 - [x] [756. 金字塔转换矩阵](https://leetcode.cn/problems/pyramid-transition-matrix/description/?envType=daily-question&envId=2025-12-29)
 - [x] [840. 矩阵中的幻方](https://leetcode.cn/problems/magic-squares-in-grid/description/?envType=daily-question&envId=2025-12-30)
 - [x] [1390. 四因数](https://leetcode.cn/problems/four-divisors/description/?envType=daily-question&envId=2026-01-04)
+- [x] [1975. 最大方阵和](https://leetcode.cn/problems/maximum-matrix-sum/description/?envType=daily-question&envId=2026-01-05)
 
 ## 困难
 
