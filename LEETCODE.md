@@ -111,6 +111,7 @@
 - [x] [840. 矩阵中的幻方](https://leetcode.cn/problems/magic-squares-in-grid/description/?envType=daily-question&envId=2025-12-30)
 - [x] [1390. 四因数](https://leetcode.cn/problems/four-divisors/description/?envType=daily-question&envId=2026-01-04)
 - [x] [1975. 最大方阵和](https://leetcode.cn/problems/maximum-matrix-sum/description/?envType=daily-question&envId=2026-01-05)
+- [x] [1339. 分裂二叉树的最大乘积](https://leetcode.cn/problems/maximum-product-of-splitted-binary-tree/description/?envType=daily-question&envId=2026-01-07)
 
 ## 困难
 
