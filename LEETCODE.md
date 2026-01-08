@@ -139,6 +139,7 @@
 - [x] [2402. 会议室 III](https://leetcode.cn/problems/meeting-rooms-iii/description/?envType=daily-question&envId=2025-12-27)
 - [x] [1970. 你能穿过矩阵的最后一天](https://leetcode.cn/problems/last-day-where-you-can-still-cross/description/?envType=daily-question&envId=2025-12-31)
 - [x] [1411. 给 N x 3 网格图涂色的方案数](https://leetcode.cn/problems/number-of-ways-to-paint-n-3-grid/description/?envType=daily-question&envId=2026-01-03)
+- [x] [1458. 两个子序列的最大点积](https://leetcode.cn/problems/max-dot-product-of-two-subsequences/description/?envType=daily-question&envId=2026-01-08)
 
 ## 周赛
 
