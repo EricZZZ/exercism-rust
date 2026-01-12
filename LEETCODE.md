@@ -35,6 +35,7 @@
 - [x] [66. 加一](https://leetcode.cn/problems/plus-one/description/?envType=daily-question&envId=2026-01-01)
 - [x] [961. 在长度 2N 的数组中找出重复 N 次的元素](https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/description/?envType=daily-question&envId=2026-01-02)
 - [x] [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)
+- [x] [1266. 访问所有点的最小时间](https://leetcode.cn/problems/minimum-time-visiting-all-points/description/?envType=daily-question&envId=2026-01-12)
 
 ## 中等
 
