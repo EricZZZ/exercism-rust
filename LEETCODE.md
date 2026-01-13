@@ -115,6 +115,7 @@
 - [x] [1339. 分裂二叉树的最大乘积](https://leetcode.cn/problems/maximum-product-of-splitted-binary-tree/description/?envType=daily-question&envId=2026-01-07)
 - [x] [865. 具有所有最深节点的最小子树](https://leetcode.cn/problems/smallest-subtree-with-all-the-deepest-nodes/description/?envType=daily-question&envId=2026-01-09)
 - [x] [712. 两个字符串的最小 ASCII 删除和](https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings/description/?envType=daily-question&envId=2026-01-10)
+- [x] [3453. 分割正方形 I](https://leetcode.cn/problems/separate-squares-i/description/?envType=daily-question&envId=2026-01-13)
 
 ## 困难
 
