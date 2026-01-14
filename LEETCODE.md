@@ -145,6 +145,7 @@
 - [x] [1411. 给 N x 3 网格图涂色的方案数](https://leetcode.cn/problems/number-of-ways-to-paint-n-3-grid/description/?envType=daily-question&envId=2026-01-03)
 - [x] [1458. 两个子序列的最大点积](https://leetcode.cn/problems/max-dot-product-of-two-subsequences/description/?envType=daily-question&envId=2026-01-08)
 - [x] [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11)
+- [x] [3454. 分割正方形 II](https://leetcode.cn/problems/separate-squares-ii/description/?envType=daily-question&envId=2026-01-14)
 
 ## 周赛
 
