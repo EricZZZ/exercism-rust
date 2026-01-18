@@ -119,6 +119,7 @@
 - [x] [2943. 最大化网格图中正方形空洞的面积](https://leetcode.cn/problems/maximize-area-of-square-hole-in-grid/description/?envType=daily-question&envId=2026-01-15)
 - [x] [2975. 移除栅栏得到的正方形田地的最大面积](https://leetcode.cn/problems/maximum-square-area-by-removing-fences-from-a-field/description/?envType=daily-question&envId=2026-01-16)
 - [x] [3047. 求交集区域内的最大正方形面积](https://leetcode.cn/problems/find-the-largest-area-of-square-inside-two-rectangles/description/?envType=daily-question&envId=2026-01-17)
+- [x] [1895. 最大的幻方](https://leetcode.cn/problems/largest-magic-square/description/?envType=daily-question&envId=2026-01-18)
 
 ## 困难
 
