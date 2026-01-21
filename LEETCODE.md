@@ -122,6 +122,7 @@
 - [x] [1895. 最大的幻方](https://leetcode.cn/problems/largest-magic-square/description/?envType=daily-question&envId=2026-01-18)
 - [x] [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/description/?envType=daily-question&envId=2026-01-19)
 - [x] [3314. 构造最小位运算数组 I](https://leetcode.cn/problems/construct-the-minimum-bitwise-array-i/description/?envType=daily-question&envId=2026-01-20)
+- [x] [3315. 构造最小位运算数组 II](https://leetcode.cn/problems/construct-the-minimum-bitwise-array-ii/description/?envType=daily-question&envId=2026-01-21)
 
 ## 困难
 
