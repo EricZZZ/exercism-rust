@@ -154,6 +154,7 @@
 - [x] [1458. 两个子序列的最大点积](https://leetcode.cn/problems/max-dot-product-of-two-subsequences/description/?envType=daily-question&envId=2026-01-08)
 - [x] [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11)
 - [x] [3454. 分割正方形 II](https://leetcode.cn/problems/separate-squares-ii/description/?envType=daily-question&envId=2026-01-14)
+- [x] [3510. 移除最小数对使数组有序 II](https://leetcode.cn/problems/minimum-pair-removal-to-sort-array-ii/description/?envType=daily-question&envId=2026-01-23)
 
 ## 周赛
 
