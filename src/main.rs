@@ -841,3 +841,17 @@ pub fn return_to_boundary_count(nums: Vec<i32>) -> i32 {
     }
     ans
 }
+
+pub fn find_disappeared_numbers(nums: Vec<i32>) -> Vec<i32> {
+    let mut x = vec![0; nums.len()];
+    let mut ans = Vec::new();
+    for n in nums {
+        x[n as usize - 1] = 1;
+    }
+    for (i, n) in x.iter().enumerate() {
+        if *n == 1 {
+            ans.push(i as i32 + 1);
+        }
+    }
+    ans
+}
