@@ -37,6 +37,7 @@
 - [x] [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)
 - [x] [1266. 访问所有点的最小时间](https://leetcode.cn/problems/minimum-time-visiting-all-points/description/?envType=daily-question&envId=2026-01-12)
 - [x] [3507. 移除最小数对使数组有序 I](https://leetcode.cn/problems/minimum-pair-removal-to-sort-array-i/description/?envType=daily-question&envId=2026-01-22)
+- [x] [1984. 学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/?envType=daily-question&envId=2026-01-25)
 
 ## 中等
 
