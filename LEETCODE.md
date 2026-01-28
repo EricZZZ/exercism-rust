@@ -159,6 +159,7 @@
 - [x] [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle/description/?envType=daily-question&envId=2026-01-11)
 - [x] [3454. 分割正方形 II](https://leetcode.cn/problems/separate-squares-ii/description/?envType=daily-question&envId=2026-01-14)
 - [x] [3510. 移除最小数对使数组有序 II](https://leetcode.cn/problems/minimum-pair-removal-to-sort-array-ii/description/?envType=daily-question&envId=2026-01-23)
+- [x] [3651. 带传送的最小路径成本](https://leetcode.cn/problems/minimum-cost-path-with-teleportations/description/?envType=daily-question&envId=2026-01-28)
 
 ## 周赛
 
