@@ -128,6 +128,7 @@
 - [x] [3315. 构造最小位运算数组 II](https://leetcode.cn/problems/construct-the-minimum-bitwise-array-ii/description/?envType=daily-question&envId=2026-01-21)
 - [x] [1877. 数组中最大数对和的最小值](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/?envType=daily-question&envId=2026-01-24)
 - [x] [3650. 边反转的最小路径总成本](https://leetcode.cn/problems/minimum-cost-path-with-edge-reversals/description/?envType=daily-question&envId=2026-01-27)
+- [x] [2976. 转换字符串的最小成本 I](https://leetcode.cn/problems/minimum-cost-to-convert-string-i/description/?envType=daily-question&envId=2026-01-29)
 
 ## 困难
 
