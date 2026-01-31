@@ -39,6 +39,7 @@
 - [x] [3507. 移除最小数对使数组有序 I](https://leetcode.cn/problems/minimum-pair-removal-to-sort-array-i/description/?envType=daily-question&envId=2026-01-22)
 - [x] [1984. 学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/?envType=daily-question&envId=2026-01-25)
 - [x] [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/description/?envType=daily-question&envId=2026-01-26)
+- [x] [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=daily-question&envId=2026-01-31)
 
 ## 中等
 
