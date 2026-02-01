@@ -40,6 +40,7 @@
 - [x] [1984. 学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/description/?envType=daily-question&envId=2026-01-25)
 - [x] [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/description/?envType=daily-question&envId=2026-01-26)
 - [x] [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=daily-question&envId=2026-01-31)
+- [x] [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/?envType=daily-question&envId=2026-02-01)
 
 ## 中等
 
