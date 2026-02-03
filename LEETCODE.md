@@ -41,6 +41,7 @@
 - [x] [1200. 最小绝对差](https://leetcode.cn/problems/minimum-absolute-difference/description/?envType=daily-question&envId=2026-01-26)
 - [x] [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=daily-question&envId=2026-01-31)
 - [x] [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/?envType=daily-question&envId=2026-02-01)
+- [x] [3637. 三段式数组 I](https://leetcode.cn/problems/trionic-array-i/description/?envType=daily-question&envId=2026-02-03)
 
 ## 中等
 
@@ -164,6 +165,7 @@
 - [x] [3510. 移除最小数对使数组有序 II](https://leetcode.cn/problems/minimum-pair-removal-to-sort-array-ii/description/?envType=daily-question&envId=2026-01-23)
 - [x] [3651. 带传送的最小路径成本](https://leetcode.cn/problems/minimum-cost-path-with-teleportations/description/?envType=daily-question&envId=2026-01-28)
 - [x] [2977. 转换字符串的最小成本 II](https://leetcode.cn/problems/minimum-cost-to-convert-string-ii/description/?envType=daily-question&envId=2026-01-30)
+- [x] [3013. 将数组分成最小总代价的子数组 II](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description/?envType=daily-question&envId=2026-02-02)
 
 ## 周赛
 
