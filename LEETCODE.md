@@ -166,6 +166,7 @@
 - [x] [3651. 带传送的最小路径成本](https://leetcode.cn/problems/minimum-cost-path-with-teleportations/description/?envType=daily-question&envId=2026-01-28)
 - [x] [2977. 转换字符串的最小成本 II](https://leetcode.cn/problems/minimum-cost-to-convert-string-ii/description/?envType=daily-question&envId=2026-01-30)
 - [x] [3013. 将数组分成最小总代价的子数组 II](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-ii/description/?envType=daily-question&envId=2026-02-02)
+- [x] [3640. 三段式数组 II](https://leetcode.cn/problems/trionic-array-ii/description/?envType=daily-question&envId=2026-02-04)
 
 ## 周赛
 
