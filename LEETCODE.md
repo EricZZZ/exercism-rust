@@ -43,6 +43,7 @@
 - [x] [3010. 将数组分成最小总代价的子数组 I](https://leetcode.cn/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/?envType=daily-question&envId=2026-02-01)
 - [x] [3637. 三段式数组 I](https://leetcode.cn/problems/trionic-array-i/description/?envType=daily-question&envId=2026-02-03)
 - [x] [3379. 转换数组](https://leetcode.cn/problems/transformed-array/description/?envType=daily-question&envId=2026-02-05)
+- [x] [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/description/?envType=daily-question&envId=2026-02-08)
 
 ## 中等
 
