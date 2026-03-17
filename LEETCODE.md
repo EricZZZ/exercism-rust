@@ -44,6 +44,7 @@
 - [x] [3637. 三段式数组 I](https://leetcode.cn/problems/trionic-array-i/description/?envType=daily-question&envId=2026-02-03)
 - [x] [3379. 转换数组](https://leetcode.cn/problems/transformed-array/description/?envType=daily-question&envId=2026-02-05)
 - [x] [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/description/?envType=daily-question&envId=2026-02-08)
+- [x] [3838. 带权单词映射](https://leetcode.cn/problems/weighted-word-mapping/)
 
 ## 中等
 
